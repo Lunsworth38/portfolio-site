@@ -1,0 +1,291 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-x: hidden; 
+    margin: 0;
+    background: #F4FAFF;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width:80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #9AD2CB;
+}
+
+h1 {
+    text-align: center;
+    color:#9AD2CB;
+    font-weight:400;
+    font-size:50px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    cursor:default;
+}
+
+h3 {
+    text-align:center;
+    color:#9AD2CB;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top:10px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    cursor:default;
+    width:100%;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+}
+
+strong {
+    display:block;
+    margin: auto;
+}
+
+#contact-form {
+    width: 50%;
+    margin: 5px;
+    display:inline-block;
+    text-align: center;
+    height:auto;
+   
+}
+
+.form-visible {
+    visibility: visible !important;
+    opacity:1 !important;
+}
+
+
+
+
+label {
+    text-align: left;
+    visibility:hidden;
+}
+
+input {
+    width:100%;
+    display:block;
+    border:0;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 5px;
+    font-family: inherit;
+}
+
+.btn-submit {
+    width: 70px;
+    margin: 25px auto auto auto;
+    font-family: inherit;
+}
+
+
+
+
+.label-visible {
+    visibility:visible !important;
+}
+
+textarea {
+    width:100%;
+    display:block;
+    padding:5px;
+    border:0;
+    font-size: 15px;
+    font-family: inherit;
+    
+}
+
+.textarea-dropdown {
+    max-height:auto;
+    
+}
+.border {
+    height:10px;
+    color:#9AD2CB;
+    margin-bottom: 20px;
+}
+
+#content {
+    
+    color: #F4FAFF;
+    background: #9AD2CB;
+    margin:auto auto auto auto;
+    border-top: 0px solid #93C9C3;
+    border-bottom: 0px solid #93C9C3;
+    width: 100%;
+    max-height: 0;
+    display:inline-block;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    transition-duration: 1.5s;
+    cursor:default;
+  
+}
+
+p {
+    display: inline-block;
+    width: 50%;
+    padding:0;
+    
+}
+
+.content-dropdown{
+    max-height: 1000px !important;
+    border-top: 5px solid #93C9C3 !important;
+    border-bottom: 5px solid #93C9C3 !important;
+    visibility: visible!important;
+    opacity:1 !important;
+}
+
+.visible {
+    width:100% !important;
+    height:100% !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+   
+    
+    
+    
+}
+
+.selected {
+    background-color: #9AD2CB;
+    color: #F4FAFF;
+}
+
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    /*width:400px;*/
+    width:250px;
+}
+
+.content-links ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-size: 600;
+    margin-top:20px;
+}
+
+.content-links li {
+    color:#9AD2CB;
+    text-align: center;
+    margin: 5px auto 5px auto;
+    padding-left:20px;
+    padding-right: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+@media only screen and (min-width: 600px) {
+    .content-links li {
+        display:inline-block;
+    }
+    #about-me {
+        width:60% !important;
+    }
+    img {
+        width:300px;
+    }
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
+    
+}
+
+.selected  {
+    background-color: #9AD2CB;
+    color: #F4FAFF !important;
+}
+
+.list-styling-none {
+    list-style-type: none; 
+}
+
+#about-me {
+    width:90%;
+}
+
+
+#btn-submit {
+    display: inline-block;
+    width: 30%;
+   
+}
+
+#school-qualifications {
+    width:33%; 
+    margin:auto;
+    display:block;
+    text-align: center;
+}
+
+#A-Levels {
+    display:block;
+    margin:16px auto 32px auto;
+    list-style: none;
+   
+}
+
+#GCSEs {
+    display:block;
+    margin: 16px auto 16px auto;
+    text-align: center;
+}
+
+#text {
+    width:100%;
+    height:100%;
+    transition-duration: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#skills li {
+    color: #F4FAFF;
+    text-align: center;
+    padding-left:20px;
+    padding-right: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor:default;
+    transition-duration: 0.3s;
+}
+
+@media only screen and (min-width: 600px) {
+    #skills li {
+        display:inline-block;
+    }
+}
+
+#p-GCSEs {
+    padding:0;
+    margin:auto;
+}
+
+#ul-A-Levels {
+    margin:0;
+}
