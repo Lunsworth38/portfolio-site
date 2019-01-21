@@ -1,23 +1,28 @@
 var aboutMe = 
 
-    "<p id='about-me'>Hi!  My name is Lewis and I am an aspiring  web developer living in Norwich, England.\
+    "<p id='about-me'>Hi!  My name is Lewis and I am an aspiring web developer living in Norwich, England.\
     I have developed both artistic and technological skills over the years completing an\
     illustration degree and subsequently creating digital artwork as a freelance illustrator.\
     I love creating and naturally I became interested in computer programming and how applications were built.\
     I feel that web development combines both my interest in visual art and technology and this\
-    has led me to pursue this career path.  In the past year I have been teaching myself the\
+    has led me to pursue this career path.  In the past year and a half I have been teaching myself the\
     tools I need to make websites such as:</p>\
     <ul id='skills'>\
         <li>HTML</li>\
         <li>CSS</li>\
         <li>Javascript</li>\
         <li>JQuery</li>\
-        <li>Node.js</li>\
-        <li>Express</li>\
+        <li>React.js</li>\
         <li>Git</li>\
-        <li>Bootstrap</li>\
+        \
     </ul>\
-    <p>I am now looking for an entry level position or work experience/internship opportunities.</p>";
+    <p>I am now looking to continue my professional development with a Junior level role.</p>\
+    <p> Previous work experience: </p>\
+    <p><strong>Junior Web Developer</strong> - CD2 Solutions</p>\
+    <p>During my time at CD2 solutions I worked with the team to maintain and develop their sites and online \
+    platforms.  In my junior role I was tasked with large refactoring jobs, QA’ testing (working through any issues)\
+    and styling with CSS.  This also involved making the sites responsive to different screen sizes and compatible\
+    across various browsers and devices.</p>";
 
 var qualifications = 
 
